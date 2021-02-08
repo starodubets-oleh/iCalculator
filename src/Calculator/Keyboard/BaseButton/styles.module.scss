@@ -1,0 +1,56 @@
+.button {
+  $size: 3.5rem;
+
+  height: $size;
+  width: $size;
+
+  font-size: 1.7rem;
+
+  border: 0;
+  border-radius: $size;
+
+  cursor: pointer;
+
+  color: white;
+
+  &:focus {
+    outline: 0;
+  }
+
+  transition: background-color 0.4s ease;
+}
+
+.grey {
+  background-color: #333333;
+
+  &:hover:not(.selected) {
+    background-color: #6b6b6b;
+  }
+
+  &.selected {
+    background-color: #bfbfbf;
+  }
+}
+
+.light {
+  color: #000;
+  background-color: #a5a5a5;
+
+  &:hover {
+    background-color: #d1d1d1;
+  }
+}
+
+.orange {
+  background-color: #f2a33b;
+
+  &:hover:not(.selected) {
+    background-color: #edbd7e;
+  }
+
+  &.selected {
+    background-color: #fff;
+    color: #f2a33b;
+  }
+}
+

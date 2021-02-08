@@ -1,0 +1,17 @@
+.inputContainer {
+  padding: 1.25rem;
+  
+  .input {
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    width: 100%;
+    font-size: 3rem;
+    padding: 0;
+    
+    &:focus {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  padding: 0.5rem;
+
+  .zeroButton {
+    width: 100%;
+    grid-area: 6 / 1 / 6 / 3;
+  }
+}
